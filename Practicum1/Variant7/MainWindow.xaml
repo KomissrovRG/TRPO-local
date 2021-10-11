@@ -1,0 +1,16 @@
+﻿<Window x:Class="Variant7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="194.262" Width="243.033">
+    <Grid>
+        <Button Content="Сгенерировать число, вычислить&#xD;&#xA;сумму и произведение цифр" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="207" Height="50" Click="Button_Click"/>
+        <Label Name="sum" HorizontalAlignment="Left" Margin="10,101,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="multi" HorizontalAlignment="Left" Margin="10,125,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="number" HorizontalAlignment="Left" Margin="10,77,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

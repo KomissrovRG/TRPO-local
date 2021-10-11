@@ -1,0 +1,14 @@
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\MainWindow.g.cs
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\App.g.cs
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9_MarkupCompile.cache
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9_MarkupCompile.lref
+C:\Users\fbdesigns\source\repos\Variant9\bin\Debug\Variant9.exe.config
+C:\Users\fbdesigns\source\repos\Variant9\bin\Debug\Variant9.exe
+C:\Users\fbdesigns\source\repos\Variant9\bin\Debug\Variant9.pdb
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\MainWindow.baml
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.g.resources
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.Properties.Resources.resources
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.csproj.GenerateResource.cache
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.csproj.CoreCompileInputs.cache
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.exe
+C:\Users\fbdesigns\source\repos\Variant9\obj\Debug\Variant9.pdb

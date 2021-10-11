@@ -1,0 +1,16 @@
+﻿<Window x:Class="Variant6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="157.377" Width="154.508">
+    <Grid>
+        <Label Content="Введите значение в байтах" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="input" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" PreviewTextInput="input_PreviewTextInput"/>
+        <Button Content="Перевести в КБ" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top" Width="120" Click="Button_Click" Height="35"/>
+        <Label Name="res" HorizontalAlignment="Left" Margin="10,104,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

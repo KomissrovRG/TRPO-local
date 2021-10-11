@@ -1,0 +1,12 @@
+﻿  MyForm.cpp
+C:\Users\fbdesigns\source\repos\Project1\Project1\MyForm.h(305,13): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\fbdesigns\source\repos\Project1\Project1\MyForm.cpp(11,1): warning C4829: Возможно, неправильные параметры функции main. Рекомендуемый вариант - "int main(Platform::Array<Platform::String^>^ argv)"
+C:\Users\fbdesigns\source\repos\Project1\Project1\MyForm.cpp(12,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+MyForm.obj : error LNK2028: ссылка на неразрешенную лексему (0A00048B) "extern "C" char __cdecl fill(int *)" (?fill@@$$J0YADPEAH@Z) в функции "private: void __clrcall Project1::MyForm::output_Click(class System::Object ^,class System::EventArgs ^)" (?output_Click@MyForm@Project1@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z)
+MyForm.obj : error LNK2019: ссылка на неразрешенный внешний символ "extern "C" char __cdecl fill(int *)" (?fill@@$$J0YADPEAH@Z) в функции "private: void __clrcall Project1::MyForm::output_Click(class System::Object ^,class System::EventArgs ^)" (?output_Click@MyForm@Project1@@$$FAE$AAMXPE$AAVObject@System@@PE$AAVEventArgs@4@@Z).
+    Указание на символы, которые определены и могут подойти:
+      "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@$$FQEBADXZ)
+      "public: char __cdecl std::basic_ios<char,struct std::char_traits<char> >::fill(void)const " (?fill@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADXZ)
+FillStrokDLL.lib : warning LNK4272: тип компьютера библиотеки "x86" конфликтует с типом целевого компьютера "x64"
+C:\Users\fbdesigns\source\repos\Project1\x64\Debug\Project1.exe : fatal error LNK1120: неразрешенных внешних элементов: 2

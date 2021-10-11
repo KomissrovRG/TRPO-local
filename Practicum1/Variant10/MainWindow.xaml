@@ -1,0 +1,26 @@
+﻿<Window x:Class="Variant10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="319.672" Width="318.033">
+    <Grid>
+        <Label Content="Введите расстояние 1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="average1" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="average1_PreviewTextInput"/>
+        <Label Content="Введите расстояние 2" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="average2" HorizontalAlignment="Left" Height="23" Margin="10,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="average2_PreviewTextInput"/>
+        <Label Content="Введите расстояние 3" HorizontalAlignment="Left" Margin="10,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="average3" HorizontalAlignment="Left" Height="23" Margin="10,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="average3_PreviewTextInput"/>
+        <Label Content="Введите скорость 1" HorizontalAlignment="Left" Margin="164,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="speed1" HorizontalAlignment="Left" Height="23" Margin="164,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="speed1_PreviewTextInput"/>
+        <Label Content="Введите скорость 2" HorizontalAlignment="Left" Margin="164,76,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="speed2" HorizontalAlignment="Left" Height="23" Margin="164,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="speed2_PreviewTextInput"/>
+        <Label Content="Введите скорость 3" HorizontalAlignment="Left" Margin="164,140,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="speed3" HorizontalAlignment="Left" Height="23" Margin="164,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" PreviewTextInput="speed3_PreviewTextInput"/>
+        <Button Content="Вычислить среднюю скорость" HorizontalAlignment="Left" Margin="10,212,0,0" VerticalAlignment="Top" Width="274" Click="Button_Click"/>
+        <Label Name="res" Content="" HorizontalAlignment="Left" Margin="10,247,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

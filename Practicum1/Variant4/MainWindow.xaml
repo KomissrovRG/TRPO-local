@@ -1,0 +1,21 @@
+﻿<Window x:Class="Variant4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Variant4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="298.77" Width="281.148">
+    <Grid>
+        <Label Content="Введите начальную границу промежутка" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="first" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" PreviewTextInput="first_PreviewTextInput"/>
+        <Label Content="Введите конечную границу промежутка" HorizontalAlignment="Left" Margin="10,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="second" HorizontalAlignment="Left" Height="23" Margin="10,106,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="237" PreviewTextInput="second_PreviewTextInput"/>
+        <Button Content="Найти среднее арифметическое" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="237" Click="Button_Click"/>
+        <Label Name="sr" HorizontalAlignment="Left" Margin="10,262,0,0" VerticalAlignment="Top"/>
+        <Label Name="atext" HorizontalAlignment="Left" Margin="10,180,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="btext" HorizontalAlignment="Left" Margin="10,204,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="ctext" HorizontalAlignment="Left" Margin="10,228,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

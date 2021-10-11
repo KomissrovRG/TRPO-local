@@ -1,0 +1,14 @@
+C:\Users\fbdesigns\source\repos\z5\bin\Debug\z5.exe.config
+C:\Users\fbdesigns\source\repos\z5\bin\Debug\z5.exe
+C:\Users\fbdesigns\source\repos\z5\bin\Debug\z5.pdb
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\MainWindow.g.cs
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\App.g.cs
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5_MarkupCompile.cache
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5_MarkupCompile.lref
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\MainWindow.baml
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.g.resources
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.Properties.Resources.resources
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.csproj.GenerateResource.cache
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.csproj.CoreCompileInputs.cache
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.exe
+C:\Users\fbdesigns\source\repos\z5\obj\Debug\z5.pdb
